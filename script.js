@@ -1,7 +1,5 @@
 let humanScore = 0, computerScore = 0;
 
-
-
 function getComputerChoice() {
     let result = Math.random() * 3;
     return (result < 1 ? "rock" : result < 2 ? "paper" : "scissors");
